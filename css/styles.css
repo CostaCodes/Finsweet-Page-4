@@ -1,0 +1,1085 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*Header-Section*/
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header .main-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.main-header .logo-section .logo-image img {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.main-header .right-section {
+    display: flex;
+}
+
+.right-section .navigation-section {
+    border-right: 3px solid gray;
+    height: 24px;
+    margin-top: 5px;
+}
+
+.navigation-section ul {
+    display: flex;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navigation-section ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-right: 20px;
+}
+
+.navigation-section ul li {
+    list-style: none;
+}
+
+.road-assistance .call-logo {
+    display: flex;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.call-logo .call-image {
+    padding-right: 10px;
+
+}
+
+
+/* First-Section */
+
+#first-section {
+    padding: 50px 0;
+}
+
+#first-section .main-section {
+    display: flex;
+}
+
+#first-section .main-section .left-section {
+    width: 50%;
+}
+
+#first-section .main-section .right-section {
+    width: 50%;
+    padding: 50px 40px;
+    background-color: black;
+    color: white;
+}
+
+#first-section .main-section .right-section .text-section p {
+    padding: 20px 0;
+    line-height: 25px;
+}
+
+#first-section .main-section .right-section .text-section h2 {
+    padding: 20px 0;
+    font-size: 40px;
+}
+
+#first-section .main-section .right-section .text-section button {
+    padding: 20px 0;
+    padding: 15px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    width: 30%;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+
+/* Second-Section */
+
+#second-section {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+#second-section .main-section {
+    display: flex;
+}
+
+#second-section .main-section .left-section {
+    width: 55%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#second-section .main-section .left-section h2 {
+    font-size: 30px;
+}
+
+#second-section .main-section .left-section p {
+    padding: 20px 0;
+    line-height: 23px;
+    color: #1E1B1B;
+    opacity: 0.8;
+}
+
+#second-section .left-section .number-section .numbers {
+    display: flex;
+
+}
+
+#second-section .left-section .number-section .numbers .border {
+    display: flex;
+    flex-direction: column;
+}
+
+#second-section .left-section .number-section .numbers .border .lines {
+    padding: 3px 0;
+    padding-left: 35px;
+}
+
+#second-section .left-section .number-section .numbers .text {
+    padding-left: 15px;
+}
+
+#second-section .left-section .number-section .numbers .text h5 {
+    padding: 14px 0 4px;
+    font-size: 20px;
+}
+
+#second-section .left-section .number-section .numbers .text small {
+    font-size: 15px;
+    color: #1E1B1B;
+    opacity: 0.8;
+}
+
+#second-section .main-section .right-section {
+    width: 45%;
+    padding: 10px 20px;
+}
+
+
+/* Third-Section */
+
+#third-section {
+    display: flex;
+}
+
+#third-section .left-section {
+    background-image: linear-gradient(to bottom, rgba(248, 91, 41, 0.9), rgba(248, 91, 41, 0.9)), url(../images/working.png);
+    width: 100%;
+    background-size: cover;
+    color: white;
+    padding: 50px;
+}
+
+#third-section .left-section .text {
+    padding: 40px 20px;
+}
+
+#third-section .left-section h2 {
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+#third-section .left-section small {
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+#third-section .middle-section {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../images/engine.png);
+    width: 100%;
+    background-size: cover;
+    color: white;
+    padding: 50px;
+}
+
+#third-section .middle-section .text {
+    padding: 40px 20px;
+}
+
+#third-section .middle-section h2 {
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+#third-section .middle-section small {
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+#third-section .right-section {
+    background-image: linear-gradient(to bottom, rgba(116, 67, 202, 0.9), rgba(116, 67, 202, 0.9)), url(../images/engine.png);
+    width: 100%;
+    background-size: cover;
+    color: white;
+    padding: 50px;
+}
+
+#third-section .right-section .text {
+    padding: 40px 20px;
+}
+
+#third-section .right-section h2 {
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+#third-section .right-section small {
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+
+/* Fourth-Section */
+#fourth-section {
+    padding: 50px 0;
+    background-color: #F8F8F8;
+    color: black;
+}
+
+#fourth-section h2 {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 35px;
+}
+
+#fourth-section .container .box-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+#fourth-section .container .box-section .service .box {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border-right: 1px solid #F2F2F2;
+    padding: 40px;
+    background-color: white;
+    color: black;
+}
+
+#fourth-section .container .box-section .service .box img {
+    background-color: #FFDACE;
+    padding: 10px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#fourth-section .container .box-section .service .box h5 {
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+#fourth-section .container .box-section .service .box small {
+    padding: 5px 0;
+    line-height: 21px;
+    color: #232536;
+    opacity: 0.6;
+}
+
+#fourth-section .container .numbers {
+    display: flex;
+    padding: 0 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#fourth-section .container .numbers .nums h2 {
+    padding-bottom: 0;
+    color: #661CE7;
+    font-weight: bold;
+}
+
+#fourth-section .container .numbers .nums p {
+    color: #1E1B1B;
+    opacity: 0.7;
+}
+
+/* Fifth-Section */
+#fifth-section {
+    padding: 20px 0;
+}
+
+#fifth-section h1 {
+    font-size: 35px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+#fifth-section .team-member {
+    padding: 20px;
+}
+
+#fifth-section .team-member .team {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+#fifth-section .team-member .team img {
+    width: 80%;
+    height: 90%;
+    align-items: center;
+    justify-content: center;
+}
+
+#fifth-section .team-member .team .text {
+    background-color: #1E1B1B;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    text-align: center;
+}
+
+#fifth-section .team-member .team .text h5 {
+    padding-bottom: 4px;
+    font-size: 16px;
+}
+
+#fifth-section .team-member .team .text small {
+    color: #FFFFFF;
+    opacity: 0.7;
+    font-size: 15px;
+}
+
+#fifth-section .team-member .team .client-1 {
+    background-image: url(../images/client-2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 350px;
+    display: flex;
+    align-items: flex-end;   
+}
+
+#fifth-section .team-member .team .client-2 {
+    background-image: url(../images/client-3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 350px;
+    display: flex;
+    align-items: flex-end;   
+}
+
+#fifth-section .team-member .team .client-3 {
+    background-image: url(../images/client-4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 350px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#fifth-section .team-member .team .client-4 {
+    background-image: url(../images/Arit.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 350px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#fifth-section .team-member .team .client-5 {
+    background-image: url(../images/client-5.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 350px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#fifth-section .team-member .team .client-6 {
+    background-image: url(../images/client-6.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 350px;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+/* Sixth-Section */
+
+#sixth-section .main-section {
+    display: flex;
+}
+
+#sixth-section .main-section {
+    width: 100%;
+}
+
+#sixth-section .main-section .car-section {
+    width: 28%;
+}
+
+#sixth-section .main-section .car-section img {
+    height: 100%;
+
+}
+
+#sixth-section .main-section .text-section {
+    width: 32%;
+    background-color: orangered;
+    color: white;
+    padding: 90px 30px;
+}
+
+#sixth-section .main-section .text-section p {
+    font-size: 26px;
+}
+
+#sixth-section .main-section .text-section .btn {
+    padding: 40px 0;
+}
+
+#sixth-section .main-section .text-section button {
+    padding: 15px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+#sixth-section .main-section .engine-section {
+    width: 40%;
+}
+
+#sixth-section .main-section .engine-section img {
+    width: 100%;
+    height: 100%;
+}
+
+#sixth-section .number-section {
+    height: 120px;
+    background-color: #F2F2F2;
+    display: flex;
+    padding-bottom: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+#sixth-section .number-section h1 {
+    font-size: 45px;
+    color: #661CE7;
+    font-weight: bold;
+}
+
+#sixth-section .number-section p {
+    font-weight: 550;
+    color: #1E1B1B;
+}
+
+
+/* Seventh-Section */
+
+#seventh-section {
+    background-color: rgb(20, 20, 20);
+    color: white;
+    padding: 50px 0;
+}
+
+#seventh-section .main-section {
+    display: flex;
+}
+
+#seventh-section .main-section .left-section {
+    width: 45%;
+    padding: 10px;
+}
+
+#seventh-section .main-section .left-section h2 {
+    font-size: 35px;
+    padding-bottom: 40px;
+}
+
+#seventh-section .main-section .left-section .logos {
+    display: flex;
+    padding-top: 50px;
+}
+
+#seventh-section .main-section .left-section .logos img {
+    padding-right: 40px;
+    width: 120%;
+}
+
+#seventh-section .main-section .right-section {
+    width: 45%;
+    padding: 10px 0;
+    padding-left: 50px;
+}
+
+#seventh-section .main-section .right-section .text {
+    padding-bottom: 40px;
+}
+
+#seventh-section .main-section .right-section .text p {
+    line-height: 36px;
+}
+
+#seventh-section .main-section .right-section .text small {
+    font-size: 17px;
+    color: gray;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: black;
+    padding: 40px 0;
+}
+
+footer .main-footer {
+    display: flex;
+}
+
+footer .main-footer .logo-section {
+    width: 20%;
+}
+
+footer .main-footer .middle-section {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .navigation-section ul li a{
+    color: white;
+}  
+
+footer .main-footer .last-section {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .main-footer .last-section small {
+    color: gray;
+}
+
+/* Media-Query */
+
+
+
+/* Laptop-View */
+
+@media only screen and (max-width: 1024.99px){
+    header .main-header {
+        flex-direction: column;
+    }
+
+    .main-header .logo-section .logo-image img {
+        width: 20%;
+    }
+
+    #second-section .main-section .left-section h2 {
+        font-size: 25px;
+    }
+
+    #third-section .left-section {
+        padding: 25px;
+    }
+
+    #third-section .left-section h2 {
+        font-size: 21px;
+        padding-bottom: 20px;
+    }
+
+    #third-section .left-section small {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #third-section .middle-section {
+        padding: 25px;
+    }
+
+    #third-section .middle-section h2 {
+        font-size: 21px;
+        padding-bottom: 20px;
+    }
+
+    #third-section .middle-section small {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #third-section .right-section {
+        padding: 25px;
+    }
+
+    #third-section .right-section h2 {
+        font-size: 21px;
+        padding-bottom: 20px;
+    }
+
+    #third-section .right-section small {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #fourth-section h2 {
+        padding-top: 0;
+        font-size: 30px;
+    }
+
+    #fourth-section .container .box-section .service .box {
+        padding: 30px;
+    }
+
+    #fifth-section h1 {
+        font-size: 30px;
+        padding: 15px 0;
+    }
+
+    #sixth-section .main-section .car-section img {
+        width: 250%;
+    }
+
+    #sixth-section .main-section .text-section {
+        padding: 30px;
+    }
+
+    footer .main-footer .middle-section {
+        width: 70%;
+        margin-bottom: 5px;
+    }
+
+    footer .main-footer .last-section {
+        width: 15%;
+    }
+
+    .main-footer .middle-section .navigation-section ul li a {
+        font-size: 15px;
+    }
+
+
+}
+
+/* Tablet-View */
+@media only screen and (max-width: 768.99px) {
+    .road-assistance .call-logo {
+        display: none;
+    }
+
+    .right-section .navigation-section {
+        border-right: none;
+    }
+
+    .navigation-section ul li a {
+        font-size: 17px;
+    }
+
+    .main-header .right-section {
+        padding-top: 10px;
+    }
+
+    #first-section {
+        padding: 30px 0;
+    }
+
+    #first-section .main-section {
+        flex-direction: column;
+    }
+
+    #first-section .main-section .left-section {
+        width: 100%;
+        background-color: black;
+    }
+
+    #first-section .main-section .left-section .image-part img {
+        width: 100%;
+    }
+
+    #first-section .main-section .right-section {
+        width: 100%;
+        padding: 20px 30px;
+    }
+
+    #second-section .main-section {
+        flex-direction: column;
+    }
+
+    #second-section .main-section .left-section {
+        width: 100%;
+    }
+
+    #second-section .main-section .left-section h2 {
+        font-size: 30px;
+        /* text-align: center; */
+    }
+
+    #second-section .main-section .left-section p {
+        /* text-align: center; */
+        font-size: 18px;
+    }
+
+    #second-section .main-section .right-section {
+        width: 100%;
+    }
+
+    #third-section .left-section .text {
+        padding: 0;
+    }
+
+    #third-section .left-section h2 {
+        font-size: 19px;
+    }
+
+    #third-section .left-section small {
+        font-size: 13px;
+    }
+
+    #third-section .middle-section .text {
+        padding: 0;
+    }
+
+    #third-section .middle-section h2 {
+        font-size: 19px;
+    }
+
+    #third-section .middle-section small {
+        font-size: 13px;
+    }
+
+    #third-section .right-section .text {
+        padding: 0;
+    }
+
+    #third-section .right-section h2 {
+        font-size: 19px;
+    }
+
+    #third-section .right-section small {
+        font-size: 13px;
+    }
+
+    #fourth-section .container .box-section .service .box h5 {
+        font-size: 18px;
+    }
+
+    #fifth-section .team-member .team {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    #fourth-section .container .numbers .nums p {
+        font-size: 14px;
+    }
+
+    #fifth-section .team-member .team .client-1 {
+        height: 300px;
+    }
+
+    #fifth-section .team-member .team .client-2 {
+        height: 300px;
+    }
+
+    #fifth-section .team-member .team .client-3 {
+        height: 300px;
+    }
+
+    #fifth-section .team-member .team .client-4 {
+        height: 300px;
+    }
+
+    #fifth-section .team-member .team .client-5 {
+        height: 300px;
+    }
+
+    #fifth-section .team-member .team .client-6 {
+        height: 300px;
+    }
+
+    #seventh-section .main-section .left-section h2 {
+        font-size: 30px;
+    }
+
+    #seventh-section .main-section .right-section .text {
+        padding-bottom: 25px;
+    }
+
+    footer .main-footer {
+        flex-direction: column;
+    }
+
+    footer .main-footer .middle-section {
+        width: 100%;
+        padding-top: 5px;
+    }
+
+    .main-footer .middle-section .navigation-section ul li a {
+        font-size: 17px;
+    }
+
+    footer .main-footer .last-section {
+        width: 100%;
+        padding-top: 10px;
+    }
+
+
+}
+
+/* Mobile-View */
+@media only screen and (max-width: 425.99px) {
+    .main-header .right-section {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .main-header .logo-section .logo-image img {
+        width: 50%;
+    }
+
+    .right-section .navigation-section {
+        margin-top: 5px;
+    }
+
+    .navigation-section ul {
+        flex-direction: column;
+    }
+
+    .navigation-section ul li a {
+        margin: 0;
+        padding: 1px 0;
+    }
+
+    #first-section .main-section {
+        padding-top: 20px;
+    }
+
+    #first-section .main-section .right-section .text-section h2 {
+        font-size: 25px;
+        padding: 10px 0;
+    }
+
+    #first-section .main-section .right-section .text-section p {
+        font-size: 15px;
+    }
+
+    #first-section .main-section .right-section .text-section button {
+        width: 45%;
+    }
+
+    #second-section .main-section .left-section h2 {
+        font-size: 20px;
+    }
+
+    #second-section .main-section .left-section p {
+        font-size: 15px;
+    }
+
+    #second-section .left-section .number-section .numbers .text small {
+        font-size: 14px;
+    }
+
+    #third-section {
+        flex-direction: column;
+    }
+
+    #third-section .left-section .text {
+        text-align: center;
+    }
+
+    #third-section .left-section h2 {
+        font-size: 25px;
+    }
+
+    #third-section .left-section small {
+        font-size: 15px;
+    }
+
+    #third-section .middle-section .text {
+        text-align: center;
+    }
+
+    #third-section .middle-section h2 {
+        font-size: 25px;
+    }
+
+    #third-section .middle-section small {
+        font-size: 15px;
+    }
+
+    #third-section .right-section .text {
+        text-align: center;
+    }
+
+    #third-section .right-section h2 {
+        font-size: 25px;
+    }
+
+    #third-section .right-section small {
+        font-size: 15px;
+    }
+
+    #fourth-section {
+        padding: 20px 0;
+    }
+
+    #fourth-section h2 {
+        font-size: 25px;
+    }
+
+    #fourth-section .container .box-section {
+        flex-direction: column;
+    }
+
+    #fourth-section .container .box-section .service {
+        border-bottom: 3px solid #F8F8F8;
+    }
+
+    #fourth-section .container .numbers {
+        padding: 0;
+        justify-content: space-between;
+    }
+
+    #fourth-section h2 {
+        font-size: 20px;
+    }
+
+    #fourth-section .container .numbers .nums p {
+        font-size: 10px;
+    }
+    
+    #fifth-section h1 {
+        font-size: 25px;
+    }
+
+    #fifth-section .team-member .team {
+        flex-direction: column;
+    }
+
+    #fifth-section .team-member .team .client-1 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #fifth-section .team-member .team .client-2 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #fifth-section .team-member .team .client-3 {
+        width: 100%;
+    }
+
+    #fifth-section .team-member .team .client-4 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #fifth-section .team-member .team .client-5 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #fifth-section .team-member .team .client-6 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #sixth-section .main-section {
+        flex-direction: column;
+    }
+
+    #sixth-section .main-section .car-section {
+        width: 100%;
+        background-color: orangered;
+    }
+
+    #sixth-section .main-section .car-section img {
+        width: 100%;
+    }
+
+    #sixth-section .main-section .text-section {
+        width: 100%;
+        padding: 20px;
+    }
+
+    #sixth-section .main-section .engine-section {
+        width: 100%;
+        background-color: #1E1B1B;
+    }
+
+    #seventh-section .main-section {
+        flex-direction: column;
+    }
+
+    #seventh-section .main-section .left-section {
+        width: 100%;
+        order: 2;
+        padding: 0;
+        padding-top: 30px;
+        border-top: 2px solid gray;
+    }
+
+    #seventh-section .main-section .right-section {
+        width: 100%;
+        padding: 0;
+        order: 1;
+    }
+
+    footer .main-footer .middle-section {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    footer .main-footer .last-section {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
